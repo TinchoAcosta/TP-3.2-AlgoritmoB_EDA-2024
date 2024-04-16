@@ -46,15 +46,4 @@ public class Pila {
         }
     }
     
-    public void mostrarPila(){
-        System.out.println("**************************************");
-        System.out.println("PILA: ");
-        for (int i = 0; i < n; i++) {
-            System.out.print(pila[i]+" /");
-        }
-        System.out.println("");
-        System.out.println("TOPE: "+verElemento());
-        System.out.println("**************************************");
-    }
-    
 }
